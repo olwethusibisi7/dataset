@@ -1,0 +1,22 @@
+# Cleaned requirements (lightweight)
+streamlit
+pyngrok
+pytest
+pandas
+numpy
+scikit-learn
+plotly
+xgboost
+SQLAlchemy
+python-dotenv
+matplotlib
+seaborn
+wordcloud
+
+# Optional heavy packages (install only when needed)
+# prophet
+# shap
+# optuna
+
+# For reproducible installs, pin versions below as needed
+# streamlit==1.22.0
