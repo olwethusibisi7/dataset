@@ -1,0 +1,16 @@
+{
+  "name": "Isazi Recruitment Devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+  "forwardPorts": [8501, 8050, 8888],
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt || true && pip install geopy || true && chmod +x ./run_dashboard.sh ./setup_env.sh ./ci_run_tests.sh 2>/dev/null || true",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter"
+  ],
+  "settings": {
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+  }
+}

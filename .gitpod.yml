@@ -1,0 +1,9 @@
+image: mcr.microsoft.com/devcontainers/python:0-3.11
+ports:
+  - port: 8501
+    onOpen: open-preview
+  - port: 8050
+    onOpen: open-preview
+tasks:
+  - init: pip install --upgrade pip && pip install -r requirements.txt || true && chmod +x ./run_dashboard.sh ./setup_env.sh ./ci_run_tests.sh 2>/dev/null || true
+    command: echo "Initialized workspace"

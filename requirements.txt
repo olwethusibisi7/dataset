@@ -10,6 +10,10 @@ wordcloud
 prophet
 python-dotenv>=0.21
 pytest>=7.0
+
+# Dash and MySQL connector for the Dash app
+dash>=2.9.0
+mysql-connector-python>=8.0
 streamlit==1.22.0
 pandas==1.5.3
 numpy==1.23.5

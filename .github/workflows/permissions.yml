@@ -1,0 +1,16 @@
+name: Ensure script permissions
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    fix-perms:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Make helper scripts executable (if present)
+              run: |
+                  chmod +x run_dashboard.sh || true
+                  chmod +x setup_env.sh || true
+                  chmod +x ci_run_tests.sh || true

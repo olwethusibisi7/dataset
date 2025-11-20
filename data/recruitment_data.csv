@@ -1,0 +1,11 @@
+candidate_id,applied_date,source,stage,qualified,job_posting
+1,2025-10-01,LinkedIn,applied,yes,Data Analyst
+2,2025-10-03,Referral,phone_screen,no,Data Engineer
+3,2025-10-04,Indeed,applied,yes,Data Analyst
+4,2025-10-07,LinkedIn,interview,no,Data Scientist
+5,2025-10-10,Website,offer,yes,Data Analyst
+6,2025-10-12,Referral,applied,no,Data Engineer
+7,2025-10-14,Indeed,interview,yes,Data Scientist
+8,2025-10-15,Website,phone_screen,yes,Data Analyst
+9,2025-10-18,LinkedIn,offer,yes,Data Engineer
+10,2025-10-20,Referral,applied,no,Data Scientist

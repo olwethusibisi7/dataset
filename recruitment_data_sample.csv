@@ -1,0 +1,6 @@
+candidate_id,application_id,job_posting_id,application_date,status,source,qualifications,interview_date,interview_score
+1,1001,2001,2023-01-15,Applied,LinkedIn,BSc Data Science,2023-01-22,85
+2,1002,2001,2023-01-17,Screened,Indeed,BSc Computer Science,2023-01-25,78
+3,1003,2002,2023-01-20,Interviewed,Referral,MSc AI,2023-01-30,92
+4,1004,2003,2023-01-22,Hired,LinkedIn,BSc Statistics,2023-02-01,88
+5,1005,2002,2023-01-25,Applied,Other,BSc Mathematics,,
